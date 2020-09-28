@@ -29,7 +29,7 @@ Indeterminate - No changes (when editing multiple games)</sys:String>
     <sys:String x:Key="LOCCrashWindowTitle">Whoops! Something went wrong…</sys:String>
     <sys:String x:Key="LOCCrashDescription" xml:space="preserve">An unrecoverable error has occurred.
 
-If you would like to help us fix this issue, please briefly describe the actions taken before the crash, and then create a diagnostics package. If you are online, the package will be uploaded to the Playnite server for analysis.
+If you would like to help us fix this issue, please briefly describe the actions taken before the crash, and then send diagnostic information. If you are online, the package will be uploaded to the Playnite server for analysis.
 
 Alternatively, you can click on the 'Report Crash' button to create a new GitHub issue and report the crash manually.
 
@@ -45,8 +45,11 @@ We recommend reporting the issue to extension's developer. If the issue keeps re
 If you want to help us fix this issue, please send diagnostic information. Thank you.</sys:String>
     <sys:String x:Key="LOCCrashDisableExtension">Disable extension</sys:String>
     <sys:String x:Key="LOCCrashSaveLog">Save log file</sys:String>
+    <sys:String x:Key="LOCCrashSendDiag">Send diag. info</sys:String>
     <sys:String x:Key="LOCCrashReportIssue">Report Crash</sys:String>
     <sys:String x:Key="LOCCrashRestartPlaynite">Restart Playnite</sys:String>
+    <sys:String x:Key="LOCCrashRestartSafe">Restart in Safe Mode</sys:String>
+    <sys:String x:Key="LOCCrashRestartSafeTooltip">Disabling all 3rd party extensions and using default theme.</sys:String>
     <sys:String x:Key="LOCCrashClosePlaynite">Exit Playnite</sys:String>
     <sys:String x:Key="LOCCrashUserActionsDescription">Actions taken before the crash (in English):</sys:String>
     <sys:String x:Key="LOCLibraryManager">Library Manager</sys:String>
@@ -673,6 +676,7 @@ You can try to resolve the issue:
     <sys:String x:Key="LOCReloadScripts">Reload Scripts</sys:String>
     <sys:String x:Key="LOCReloadScriptsSuccess">All scripts reloaded successfully.</sys:String>
     <sys:String x:Key="LOCNoGamesFound">No games found for specified search/filter criteria</sys:String>
+    <sys:String x:Key="LOCNoItemsFound">No items found</sys:String>
     <sys:String x:Key="LOCBackToDesktopMode">Switch to Desktop Mode</sys:String>
     <sys:String x:Key="LOCExitPlaynite">Exit Playnite</sys:String>
     <sys:String x:Key="LOCLibraries">Libraries</sys:String>
@@ -681,6 +685,7 @@ You can try to resolve the issue:
     <sys:String x:Key="LOCExtensionVersion">Version:</sys:String>
     <sys:String x:Key="LOCExtensionModule">Module:</sys:String>
     <sys:String x:Key="LOCLibrary">Library</sys:String>
+    <sys:String x:Key="LOCStatistics">Statistics</sys:String>
     <sys:String x:Key="LOCAll">All</sys:String>
     <sys:String x:Key="LOCNone">None</sys:String>
     <sys:String x:Key="LOCNotifications">Notifications</sys:String>
@@ -839,6 +844,11 @@ Backgrounds: {2} mega pixels</sys:String>
     <sys:String x:Key="LOCAddFromExe">Import file…</sys:String>
     <sys:String x:Key="LOCWhatIsThis">What is this?</sys:String>
     <sys:String x:Key="LOCConfirumationAskGeneric">Are you sure you want to do this?</sys:String>
+    <sys:String x:Key="LOCStatsTotalPlayTime">Total play time</sys:String>
+    <sys:String x:Key="LOCStatsAvaragePlayTime">Avarage play time</sys:String>
+    <sys:String x:Key="LOCStatsTopPlayTime">Top play time</sys:String>
+    <sys:String x:Key="LOCOverviewLabel">Overview</sys:String>
+    <sys:String x:Key="LOCSidebar">Sidebar</sys:String>
     <!--Common Library-->
     <sys:String x:Key="LOCCommonLinksAchievements">Achievements</sys:String>
     <sys:String x:Key="LOCCommonLinksForum">Forum</sys:String>

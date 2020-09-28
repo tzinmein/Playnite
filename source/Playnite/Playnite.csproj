@@ -301,6 +301,7 @@
     <Compile Include="ImageSourceManager.cs" />
     <Compile Include="Input\MouseWheelGesture.cs" />
     <Compile Include="Localization.cs" />
+    <Compile Include="Localization\LocalizationKeys.cs" />
     <Compile Include="Metadata\MetadataDownloaderSettings.cs" />
     <Compile Include="ObservablePowerStatus.cs" />
     <Compile Include="PlayniteProcess.cs" />
@@ -612,6 +613,9 @@
     <EmbeddedResource Include="Resources\DescriptionView.html" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Safe Mode.bat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Resources\playnite_extension.ico">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
